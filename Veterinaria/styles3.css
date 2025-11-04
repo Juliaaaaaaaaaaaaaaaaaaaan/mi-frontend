@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #0a1a36;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.logo p {
+    font-size: 0.9rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover,
+.menu a.activo {
+    color: #4da6ff;
+}
+
+/* ==================== SECCIÓN TURNOS ==================== */
+#turnos {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#turnos h1 {
+    color: #0a1a36;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#turnos p {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 0.95em;
+}
+
+/* Formulario */
+.form-turnos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-turnos label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0a1a36;
+}
+
+.form-turnos input,
+.form-turnos select,
+.form-turnos textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95em;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-turnos input:focus,
+.form-turnos select:focus,
+.form-turnos textarea:focus {
+    border-color: #0a1a36;
+}
+
+/* Botón */
+button {
+    background-color: #0a1a36;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #4da6ff;
+    transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #0a1a36;
+    color: white;
+    padding: 20px 0;
+    margin-top: 60px;
+}

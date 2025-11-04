@@ -1,0 +1,148 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustambo - Clínica Veterinaria</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">
+            <h2>Gustambo Vet</h2>
+            <p>Clínica Veterinaria</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="turnos.html">Turnos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2><span>Sobre </span><span class="blue">nosotros</span></h2>
+            <p><h3>En Gustambo, sabemos que la salud de tu mejor amigo no puede esperar. Por eso, ofrecemos atención veterinaria inmediata para esas urgencias inesperadas y para que siempre puedas tener la tranquilidad de que recibirán el cuidado que necesitan, justo cuando lo necesitan.
+Nuestra misión es la salud integral y el bienestar de tus mascotas. Contamos con un equipo de profesionales apasionados y dedicados que se preocupan genuinamente por cada paciente. Desde chequeos preventivos hasta tratamientos especializados, en Gustambo, tu compañero peludo, emplumado o escamado está en las mejores manos. Tu mascota es parte de nuestra familia. ¡Ven a conocernos!</h3></p>
+        </div>
+        <div class="hero-img">
+            <img src="gus1.png" alt="Veterinaria con perro y gato" height="300" width="3000">
+        </div>
+    </section>
+
+    <!-- Sección info -->
+    <section class="info">
+  <div class="sucursales-container">
+    <div class="sucursal-card">
+      <img src="palermo.png" alt="Sucursal Palermo">
+      <div class="sucursal-title">Palermo</div>
+      <div class="sucursal-desc">Aráoz 1283, CABA</div>
+    </div>
+    <div class="sucursal-card">
+      <img src="villapueyrredon.png" alt="Sucursal Belgrano">
+      <div class="sucursal-title">Villa Pueyrredon</div>
+      <div class="sucursal-desc">Artigas 4401, CABA</div>
+    </div>
+    <div class="sucursal-card">
+      <img src="colegiales.png" alt="Sucursal Recoleta">
+      <div class="sucursal-title">Colegiales</div>
+      <div class="sucursal-desc">Palpa 3088, CABA</div>
+    </div>
+    <!-- Agrega más sucursales aquí -->
+  </div>
+</section>
+
+    <!-- Banner informativo -->
+    <div class="banner">
+        Atendemos derivaciones médicas de mediana y alta complejidad
+    </div>
+
+    <!-- Sección Prioridad -->
+    <section class="prioridad">
+        <h2>Como <span class="blue">contactarnos</span></h2>
+    </section>
+
+    <section class="info">
+  <!-- Información de Contacto Clave -->
+  <div class="contacto-destacado">
+    <h2>Información de Contacto Clave</h2>
+    <p><strong>Teléfono Principal:</strong> <a href="tel:011 4584-6661">011 4584-6661</a></p>
+    <span class="mini-text">Disponible 24 horas para urgencias</span>
+    <p><strong>Correo Electrónico:</strong> <br>gustamboveterinaria@gmail.com</p>
+  </div>
+  
+  <!-- Formulario de Contacto -->
+  <div class="formulario-contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Nombre Completo" required>
+      <input type="email" placeholder="Correo Electrónico" required>
+      <input type="tel" placeholder="Teléfono">
+      <select required>
+        <option value="">Motivo del Contacto</option>
+        <option>Pedido de Turno</option>
+        <option>Consulta General</option>
+        <option>Seguimiento de Tratamiento</option>
+        <option>Otro</option>
+      </select>
+      <textarea placeholder="Mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar Consulta</button>
+    </form>
+  </div>
+  
+  <!-- Sección de Turnos -->
+  <div class="seccion-turnos">
+    <h2>¿Necesitas un Turno?</h2>
+    <p>Para una consulta de rutina, baño, peluquería o vacunación, te recomendamos pedir un turno previo.</p>
+    <p><strong>Llama al:</strong> 011 4584-6661 para coordinar.</p>
+    <button onclick="window.location.href='turnos.html'">Solicitar Turno Online</button>
+
+  </div>
+  
+  <!-- Horarios de Atención -->
+  <div class="horarios-atencion">
+    <h2>Horarios de Atención General</h2>
+    <ul>
+      <li><strong>Lunes a Viernes:</strong> 9:00 a 20:00 h</li>
+      <li><strong>Sábados:</strong> 9:00 a 14:00 h</li>
+      <li><strong>Domingos y Feriados:</strong> Solo Urgencias (Llamar al número principal)</li>
+    </ul>
+  </div>
+  
+  <!-- Sucursales -->
+  <div class="sucursales-container">
+    <h2>Encuentra tu Veterinaria Gustambo Más Cercana</h2>
+    <div class="sucursal-card">
+      <div class="sucursal-title">Palermo</div>
+      <div class="sucursal-desc">Aráoz 1283, CABA</div>
+      <p><strong>Teléfono:</strong> <a href="tel:011 5410-7841">011 5410-7841</a></p>
+      <iframe src="https://maps.google.com/maps?q=Av.%20Santa%20Fe%203200&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="120" frameborder="0"></iframe>
+    </div>
+    <!-- Más sucursales si lo necesitas -->
+  </div>
+  
+  <!-- Redes Sociales -->
+  <div class="redes-sociales">
+    <h2>Síguenos en Redes</h2>
+    <a href="https://instagram.com/gustambo" target="_blank"><img src="instagram.jpg" alt="Instagram"></a>
+    <a href="https://facebook.com/gustambo" target="_blank"><img src="faceboock.jpg" alt="Facebook"></a>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Gustambo - Clínica Veterinaria | Emergencias 24hs</p>
+    </footer>
+</body>
+
+</html>

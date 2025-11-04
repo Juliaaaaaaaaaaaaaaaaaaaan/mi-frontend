@@ -1,0 +1,213 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #0a1a36;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo a {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.logo p {
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #4da6ff;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f7f7f7;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.hero-text .blue {
+    color: #4da6ff;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #0a1a36;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #4da6ff;
+}
+
+/* Imagen */
+.hero-img img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Banner */
+.banner {
+    background: #4da6ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Prioridad */
+.prioridad {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.prioridad h2 {
+    font-size: 2rem;
+    color: #222;
+}
+
+.prioridad .blue {
+    color: #4da6ff;
+}
+
+/* Footer */
+footer {
+    background: #0a1a36;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* -------- SERVICIOS -------- */
+  .servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    background: #fff;
+  }
+  
+  .servicio {
+    text-align: center;
+    width: 140px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .servicio img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .servicio:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+  }
+  
+  /* -------- PRESENTACION -------- */
+  .presentacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background: #f9f9f9;
+    flex-wrap: wrap;
+  }
+  
+  .texto {
+    max-width: 500px;
+  }
+  
+  .texto h2 {
+    color: #555;
+  }
+  
+  .texto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .texto li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .familia {
+    color: #2a6edb;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .media {
+    display: flex;
+    flex-direction: row;   /* gato y video en fila */
+    align-items: center;
+    gap: 20px;             /* separación entre gato y video */
+  }
+  
+  .gatito {
+    width: 200px;
+  }
+  
+  .media video {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  

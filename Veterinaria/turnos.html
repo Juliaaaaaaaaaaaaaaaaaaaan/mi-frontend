@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Turnos - Gustambo Veterinaria</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">
+            <h2>Gustambo Vet</h2>
+            <p>Clínica Veterinaria</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="turnos.html">Turnos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <section id="turnos">
+        <h1>Solicitar Turno</h1>
+        <p>Completá el formulario para reservar una cita con nuestros veterinarios.</p>
+
+        <form class="form-turnos">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="mascota">Nombre de la Mascota:</label>
+            <input type="text" id="mascota" name="mascota" required>
+
+            <label for="tipo">Tipo de Mascota:</label>
+            <select id="tipo" name="tipo" required>
+                <option value="">Seleccionar...</option>
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Otro</option>
+            </select>
+
+            <label for="fecha">Fecha del Turno:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="motivo">Motivo de la Consulta:</label>
+            <textarea id="motivo" name="motivo" rows="3" placeholder="Ej: Vacunación, control general, cirugía, etc."></textarea>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Gustambo Veterinaria - gustambo@gmail.com</p>
+    </footer>
+
+</body>
+</html>
